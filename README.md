@@ -80,14 +80,15 @@ If you want to generate the plugin files (`main.js`, `manifest.json`, and `style
    ```bash
    npm install
    ```
-3. **Build the plugin**: Run the build script to generate the `main.js` file:
-   ```bash
-   npm run build
-   ```
-4. **Locate the files**:
-   - `main.js`: This is generated in the root folder after the build completes.
-   - `manifest.json`: This is a static file already in the root folder.
-   - `styles.css`: This is a static file already in the root folder.
+3. **Generate the files**:
+   - **`main.js`**: Run the build script to compile the TypeScript source code into a single JavaScript file:
+     ```bash
+     npm run build
+     ```
+   - **`manifest.json`**: This file is already included in the root directory. It contains the plugin's metadata.
+   - **`styles.css`**: This file is already included in the root directory. It contains the plugin's styling.
+
+4. **Verify**: After running the build command, you should see `main.js` appear in the root folder alongside `manifest.json` and `styles.css`.
 
 Once you have these three files, you can follow the **Manual Installation** steps above to add them to your Obsidian vault.
 
