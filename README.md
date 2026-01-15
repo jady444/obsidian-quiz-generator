@@ -1,7 +1,5 @@
 # Quiz Generator
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/ECuiDev/obsidian-quiz-generator/total?labelColor=21262d&color=238636&logo=github&style=for-the-badge)](https://github.com/ECuiDev/obsidian-quiz-generator/releases) [![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?labelColor=21262d&color=%23483699&label=downloads&query=%24%5B%22quiz-generator%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json&logo=obsidian&style=for-the-badge)](https://github.com/ECuiDev/obsidian-quiz-generator/releases) [![Release](https://img.shields.io/github/v/release/ECuiDev/obsidian-quiz-generator?display_name=tag&labelColor=21262d&color=1f6feb&style=for-the-badge)](https://github.com/ECuiDev/obsidian-quiz-generator/releases/latest)
-
 **Quiz Generator** is a plugin for [Obsidian](https://obsidian.md/) that leverages the power of various AI models to generate interactive, exam-style questions from your notes. Whether you're a student preparing for exams or an educator designing assessments, this plugin streamlines the question creation process.
 
 ## Demo
@@ -55,7 +53,7 @@ This plugin is now available in the **Community plugins** page in Obsidian. You 
 
 #### Manual Installation
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/ECuiDev/obsidian-quiz-generator/releases).
+1. Download `main.js`, `manifest.json`, and `styles.css` from the latest release.
 2. Go to your Obsidian vault's `plugins` folder and create a new folder named `quiz-generator`.
 3. Move the files you downloaded in step 1 to this folder.
 4. Enable the plugin in the **Community plugins** page in Obsidian.
@@ -383,15 +381,6 @@ Long Answer: {Insert your question here} Insert inline separator you chose in th
 Long Answer: Explain the difference between a stock and a bond, and discuss the risks and potential rewards associated with each investment type. :: A stock represents ownership in a company and a claim on part of its profits. The potential rewards include dividends and capital gains if the company's value increases, but the risks include the possibility of losing the entire investment if the company fails. A bond is a loan made to a company or government, which pays interest over time and returns the principal at maturity. Bonds are generally considered less risky than stocks, as they provide regular interest payments and the return of principal, but they offer lower potential returns.
 ```
 
-## Coming Soon
-
-I'm actively working on bringing more features and improvements to Quiz Generator. Stay tuned for the following updates:
-
-### Next Release
-
-- **Feature Requests:** [#16](https://github.com/ECuiDev/obsidian-quiz-generator/issues/16), [#17](https://github.com/ECuiDev/obsidian-quiz-generator/issues/17), [#21](https://github.com/ECuiDev/obsidian-quiz-generator/issues/21), [#22](https://github.com/ECuiDev/obsidian-quiz-generator/issues/22).
-- **Chunking:** Automatically break down long notes into smaller segments. Intended to fix [#19](https://github.com/ECuiDev/obsidian-quiz-generator/issues/19) and [#20](https://github.com/ECuiDev/obsidian-quiz-generator/issues/20).
-
 ### Future Releases
 
 - **Randomize Choices:** Randomize choice order for multiple choice and select all that apply questions are displayed.
@@ -412,9 +401,6 @@ I'm actively working on bringing more features and improvements to Quiz Generato
 - **Advanced Generation:** Control the number of choices, blanks, and pairs to generate.
 - **Responsive UI:** Freely resize and move the UI.
 
-## Issues and Feature Requests
-
-If you encounter any errors or have feature requests, please open an issue on the [GitHub repository](https://github.com/ECuiDev/obsidian-quiz-generator/issues).
 
 ## Tips
 
